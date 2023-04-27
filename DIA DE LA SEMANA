@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+int main (){
+int diaDeLaSemana;
+string nombreDelDia;
+
+cout<<"ingrese el numero del dia de la semana: ";
+
+cin>>diaDeLaSemana;
+switch(diaDeLaSemana)
+{
+case 1:
+     nombreDelDia="lunes";
+     break;
+case 2:
+     nombreDelDia="martes";
+     break;
+case 3:
+     nombreDelDia="miercoles";
+     break;
+case 4:
+     nombreDelDia="jueves";
+     break;
+case 5:
+     nombreDelDia="viernes";
+     break;
+case 6:
+     nombreDelDia="sabado";
+     break;
+case 7:
+     nombreDelDia="domingo";
+     break;
+}
+cout<<nombreDelDia;
+
+
+
+return 0;
+
+}
